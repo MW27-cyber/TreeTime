@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TreeTime — een boom door het jaar</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <h1>🌳 TreeTime</h1>
+    <p>Elke maand dezelfde boom, dezelfde plek. Kijk hoe hij verandert door het jaar heen.</p>
+  </header>
+
+  <main>
+    <section id="gallery" class="gallery" aria-label="Foto's per maand">
+      <!-- Foto's worden hier automatisch geladen vanuit photos.json -->
+    </section>
+    <p id="empty-state" class="empty-state" hidden>
+      Nog geen foto's toegevoegd. Zet een foto in de map <code>photos/</code> en voeg hem toe aan <code>photos.json</code>.
+    </p>
+  </main>
+
+  <footer>
+    <p>Schoolproject &middot; gemaakt met TreeTime</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
