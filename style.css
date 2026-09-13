@@ -111,6 +111,10 @@ footer {
   padding: 24px 0;
 }
 
+footer a {
+  color: var(--accent);
+}
+
 .lightbox {
   position: fixed;
   inset: 0;
