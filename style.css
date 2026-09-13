@@ -149,3 +149,7 @@ footer {
   cursor: pointer;
   padding: 4px 8px;
 }
+
+.lightbox[hidden] {
+  display: none;
+}
